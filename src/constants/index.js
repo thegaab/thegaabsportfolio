@@ -3,7 +3,7 @@ import Project2 from "../assets/projects/Project2.png";
 import Project3 from "../assets/projects/Project3.png";
 import Project4 from "../assets/projects/Project4.png";
 
-export const HERO_CONTENT = `I am a systems developer fascinated by the creative freedom and innovation that technology provides. Currently, I am focused on enhancing my back-end skills, exploring technologies such as Typescript, Node.js, Java Spring Boot.`;
+export const HERO_CONTENT = `I am a systems developer fascinated by the creative freedom and innovation that technology provides. I am currently focused on enhancing my skills in both back-end and front-end development, exploring technologies such as TypeScript, Node.js, Java Spring Boot, ReactJS, React Native, and TailwindCSS.`;
 
 export const ABOUT_TEXT = `I hold a degree in Technology in Systems Analysis and Development from Universidade de Mogi das Cruzes and am currently pursuing a postgraduate degree in Full Stack Development at FIAP in partnership with Alura. During this postgraduate program, I am deepening my knowledge in back-end, front-end, database, and cloud computing.`;
 
