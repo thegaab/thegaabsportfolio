@@ -1,4 +1,4 @@
-import Project1 from "../assets/projects/Project1.png";
+import Project1 from "../assets/projects/Project1.jpg";
 import Project2 from "../assets/projects/Project2.png";
 import Project3 from "../assets/projects/Project3.png";
 import Project4 from "../assets/projects/Project4.png";
@@ -20,12 +20,12 @@ Making the system, as already mentioned, more fluid, aiming to make the use of t
 
 export const PROJECTS = [
   {
-    title: "Starbucks website clone",
+    title: "DuckDuckGo website clone",
     image: Project1,
     description:
-      "A clone of the Starbucks website, designed to replicate the look and feel of the original site. It includes features such as choose diferents milshakes.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    github: "https://github.com/thegaab/starbucksWebsite",
+      "A clone of the DuckDuckGo website, designed to replicate the look and feel of the original site.",
+    technologies: ["NextJs", "TailwindCSS", "Typescript"],
+    github: "https://github.com/thegaab/DuckDuckGo-Landingpage",
   },
   {
     title: "NWL Expert Notes",
