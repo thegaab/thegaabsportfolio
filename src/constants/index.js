@@ -2,6 +2,7 @@ import Project1 from "../assets/projects/Project1.jpg";
 import Project2 from "../assets/projects/Project2.png";
 import Project3 from "../assets/projects/Project3.png";
 import Project4 from "../assets/projects/Project4.png";
+import Project5 from "../assets/projects/Project5.png";
 
 export const HERO_CONTENT = `I am a systems developer fascinated by the creative freedom and innovation that technology provides. I am currently focused on enhancing my skills in both back-end and front-end development, exploring technologies such as TypeScript, Node.js, Java Spring Boot, ReactJS, React Native, and TailwindCSS.`;
 
@@ -26,6 +27,14 @@ export const PROJECTS = [
       "A clone of the DuckDuckGo website, designed to replicate the look and feel of the original site.",
     technologies: ["NextJs", "TailwindCSS", "Typescript"],
     github: "https://github.com/thegaab/DuckDuckGo-Landingpage",
+  },
+  {
+    title: "Proview Corp website",
+    image: Project5,
+    description:
+      "A portfolio website showcasing Proview Corp's construction expertise and completed projects. The site highlights the company's skills, past projects, and commitment to quality, providing potential clients with an overview of Proview's capabilities and attention to detail.",
+    technologies: ["ViteJS", "Tailwind CSS", "Sooner", "lucide-react"],
+    github: "https://www.proviewcorp.com/",
   },
   {
     title: "NWL Expert Notes",
