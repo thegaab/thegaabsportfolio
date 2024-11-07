@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tora-kun
+* source:	https://sketchfab.com/3d-models/tora-kun-50f9bbf1bcba4e06b9511dd791b842f2
+* author:	little.bucket (https://sketchfab.com/little.bucket)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tora-kun" (https://sketchfab.com/3d-models/tora-kun-50f9bbf1bcba4e06b9511dd791b842f2) by little.bucket (https://sketchfab.com/little.bucket) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
