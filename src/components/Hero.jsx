@@ -13,7 +13,7 @@ const Hero = () => {
   useEffect(() => {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    camera.position.z = 25;
+    camera.position.z = 12;
 
     const renderer = new THREE.WebGLRenderer({ alpha: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -36,14 +36,22 @@ const Hero = () => {
       }
     );
 
-    const topLight = new THREE.DirectionalLight(0xffffff, 1);
-    topLight.position.set(500, 500, 500);
+    camera.position.z = 12;
+
+    const topLight = new THREE.DirectionalLight(0xffffff, 1.5);
+    topLight.position.set(0, 1, 1); // Centraliza a luz superior
     scene.add(topLight);
 
-    const ambientLight = new THREE.AmbientLight(0x333333, 0.5);
+    const ambientLight = new THREE.AmbientLight(0x404040, 1); // Luz ambiente mais intensa
     scene.add(ambientLight);
 
+    // Adiciona uma HemisphereLight para iluminação mais natural
+    const hemisphereLight = new THREE.HemisphereLight(0xffffff, 0x333333, 0.75);
+    scene.add(hemisphereLight);
+
     const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableZoom = false;
+    controls.enableDamping = false;
 
     const animate = () => {
       requestAnimationFrame(animate);
