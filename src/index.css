@@ -7,3 +7,21 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+/* Customização da barra de rolagem */
+::-webkit-scrollbar {
+  width: 15px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #21042b, #2c0e36, #21042b); /* Cor da barra de rolagem */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:  #50A9B5; /* Cor ao passar o mouse */
+}
+
+::-webkit-scrollbar-track {
+  background: #0e010f;
+}
