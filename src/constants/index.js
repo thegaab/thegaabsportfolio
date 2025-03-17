@@ -3,6 +3,7 @@ import Project2 from "../assets/projects/Project2.png";
 import Project3 from "../assets/projects/Project3.png";
 import Project4 from "../assets/projects/Project4.png";
 import Project5 from "../assets/projects/Project5.png";
+import Project6 from "../assets/projects/Project6.png";
 
 export const HERO_CONTENT = `I am a systems developer fascinated by the creative freedom and innovation that technology provides. I am currently focused on enhancing my skills in both back-end and front-end development, exploring technologies such as TypeScript, Node.js, Java Spring Boot, ReactJS, React Native, and TailwindCSS.`;
 
@@ -17,9 +18,24 @@ export const EXPERIENCES = [
 Making the system, as already mentioned, more fluid, aiming to make the use of the employees simpler, faster and more consistent, offering a better experience for the customer who is not aware of this whole process but who needs the proper functioning of this process to use of the product offered by the company without headaches.`,
     technologies: ["Javascript", "Php", "Laravel", "MySql", "Docker", "linux", "Git", "NodeJs"],
   },
+  {
+    year: "2024 - At the moment",
+    role: "Software Engineer",
+    company: "Synth Hub",
+    description: `I work on developing technological solutions ranging from business management systems to landing pages for small and medium-sized enterprises. I utilize technologies such as Java, Node.js, and TypeScript, contributing to the entire development lifecycle—from concept and UX/UI design to full implementation, including deployments and automated testing. My focus is on delivering robust, scalable products tailored to clients' needs.`,
+    technologies: ["Node.js", "Spring Boot", "Typescript", "React.js", "Java", "Github", "UX/UI"],
+  },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Ionstech Landingpage",
+    image: Project6,
+    description:
+      "A landing page for a company specializing in system automation with RPA (Robotic Process Automation).",
+    technologies: ["NextJs", "TailwindCSS", "Typescript"],
+    github: "https://ionstechsolutions.com.br/",
+  },
   {
     title: "DuckDuckGo website clone",
     image: Project1,
