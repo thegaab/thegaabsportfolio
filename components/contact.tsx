@@ -12,7 +12,7 @@ export default function Contact() {
   };
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/1234567890?text=Hi, I'd like to discuss a new project!", "_blank");
+    window.open("https://wa.me/11950202293?text=Hi, I'd like to discuss a new project!", "_blank");
   };
 
   return (
