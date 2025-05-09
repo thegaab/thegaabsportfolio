@@ -8,11 +8,11 @@ import me from "@/public/me.png"
 
 export default function Contact() {
   const handleEmailClick = () => {
-    window.location.href = "mailto:your.email@example.com?subject=New Project Inquiry";
+    window.location.href = "mailto:tiagogabrieldev@outlook.com?subject=New Project Inquiry";
   };
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/1234567890?text=Hi, I'd like to discuss a new project!", "_blank");
+    window.open("https://wa.me/11950202293?text=Hi, I'd like to discuss a new project!", "_blank");
   };
 
   return (
