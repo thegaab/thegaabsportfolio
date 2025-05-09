@@ -8,7 +8,7 @@ import me from "@/public/me.png"
 
 export default function Contact() {
   const handleEmailClick = () => {
-    window.location.href = "mailto:your.email@example.com?subject=New Project Inquiry";
+    window.location.href = "mailto:tiagogabrieldev@outlook.com?subject=New Project Inquiry";
   };
 
   const handleWhatsAppClick = () => {
