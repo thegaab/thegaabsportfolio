@@ -16,11 +16,14 @@ jobs:
         with:
           node-version: 18
 
+      - name: Setup pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: npm run build
+        run: pnpm build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
